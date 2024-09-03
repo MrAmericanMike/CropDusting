@@ -1,0 +1,27 @@
+{
+  "farts": {
+    "subtitle": "cropdusting.player.farts",
+    "sounds": [
+      {
+        "name": "cropdusting:fart_a",
+        "stream": true
+      },
+      {
+        "name": "cropdusting:fart_b",
+        "stream": true
+      },
+      {
+        "name": "cropdusting:fart_c",
+        "stream": true
+      },
+      {
+        "name": "cropdusting:fart_d",
+        "stream": true
+      },
+      {
+        "name": "cropdusting:fart_e",
+        "stream": true
+      }
+    ]
+  }
+}
