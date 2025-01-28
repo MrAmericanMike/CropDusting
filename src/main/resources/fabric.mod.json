@@ -1,0 +1,33 @@
+{
+	"schemaVersion": 1,
+	"id": "cropdusting",
+	"version": "${version}",
+	"name": "CropDusting",
+	"description": "CropDusting",
+	"authors": ["MrAmericanMike"],
+	"contact": {
+		"homepage": "",
+		"sources": ""
+	},
+	"license": "LGPL-3.0-only",
+	"icon": "assets/cropdusting/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"top.mramericanmike.cropdusting.CropDusting"
+		],
+		"client": [
+			"top.mramericanmike.cropdusting.CropDustingClient"
+		]
+	},
+	"mixins": [],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
